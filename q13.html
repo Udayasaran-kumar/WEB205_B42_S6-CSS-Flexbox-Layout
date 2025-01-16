@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Basic Flexbox Layout</title>
+    <style>
+      body{
+        background-color: cornflowerblue;
+        display: flex;
+        justify-content: space-evenly;
+      }#parent1{
+        background-color: bisque;
+        width: 250px;
+        height: 400px;
+      }#parent2{
+        background-color: bisque;
+        width: 250px;
+        height: 400px;
+      }
+      #child1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+      }#child1>div{
+        height: 100px;
+        width: 100px;
+        justify-content: space-evenly;
+        align-items:left;
+      }
+      #child1>div>img{
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        text-align: left;
+        
+      }
+      a{
+        text-decoration: none;
+
+      }
+
+    </style>
+</head>
+<body>
+    <div id="parent1">
+        <h2>Revamp your home in style</h2>
+        <div id="child1">
+       <div>
+        <img src="" alt="">
+        <p>Cushion covers, bedsheets &more</p>
+       </div>
+       <div>
+        <img src="" alt="">
+        <p>Figurines, vases & more</p>
+       </div>
+       
+       <div>
+        <img src="" alt="">
+        <p>Home storage</p>
+       </div>
+       <div>
+        <img src="" alt="">
+        <p>Lighting solutions</p>
+       </div>
+    </div><br><br><br>
+       <a href="">Explore all</a>
+    </div>
+    <div id="parent2">
+        <h2>Starting ₹149|Headphones</h2>
+        <div id="child1">
+       <div>
+        <img src="" alt="">
+        <p>Starting ₹249| boAt</p>
+       </div>
+       <div>
+        <img src="" alt="">
+        <p>Starting ₹349| boult</p>
+       </div>
+       
+       <div>
+        <img src="" alt="">
+        <p>Starting ₹649| Noise</p>
+       </div>
+       <div>
+        <img src="" alt="">
+        <p>Starting ₹149| Zebronics</p>
+       </div>
+    </div><br><br><br>
+       <a href="">See all offers</a>
+    </div>
+</body>
+</html>
