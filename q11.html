@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Basic Flexbox Layout</title>
+    <style>
+        #parent{
+            display: flex;
+            height: auto;
+            width: auto;
+            justify-content: center;
+            align-items:center ;
+        }
+        #parent>div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
