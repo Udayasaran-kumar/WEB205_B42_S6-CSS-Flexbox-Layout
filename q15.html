@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building a Responsive Image Gallery</title>
+  <style>
+    body{
+      background-color: black;
+    }
+    #backofall{
+      height: 1000px;
+      width: 100%;
+      display: flex;
+      border: 0.5px solid white;
+      border-radius: 5%;
+      justify-content: left;
+      align-items: self-start;
+    }  #leftbox{
+      height: fit-content;
+    }#rightbox{
+      height: fit-content;
+    }
+
+    #innerleftbox{
+      height: 40%;
+      width: 40%;
+      border: 0.5px solid white;
+      border-radius: 5%;
+      justify-content: space-evenly;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      padding: 20px;
+    }
+    #innerleftbox>div{
+      height: 25%;
+      width: 25%;
+      border: 0.5px solid white;
+      border-radius: 50%;
+    }
+    #innerleftmbox{
+      height: 40%;
+      width: 40%;
+      justify-content: space-evenly;
+      display: flex;
+      margin: 10px;
+      padding: 20px;
+    }
+    #innerleftmbox>div{
+      height: 25%;
+      width: 25%;
+      border: 0.5px solid white;
+      border-radius: 50%;
+    }#innerleftbox2{
+      height: 40%;
+      width: 40%;
+      border: 0.5px solid white;
+      border-radius: 5%;
+      justify-content: space-evenly;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      padding: 20px;
+          }
+    #innerleftbox2>div{
+      height: 25%;
+      width: 25%;
+      border: 0.5px solid white;
+      border-radius: 50%;
+    }
+  
+  </style>
+</head>
+<body>
+  <div id="backofall">
+    <div id="leftbox">
+    <div id="innerleftbox">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div id="innerleftmbox">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div id="innerleftbox2">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div id="rightbox">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  </div>
+
+  </body>
+</html>
