@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Basic Flexbox Layout</title>
+    <style>
+        #parent1{
+            display: flex;
+            height: auto;
+            width: auto;
+                     align-content: flex-start;
+                     justify-content: flex-start;
+          flex-direction: row;
+
+        }
+        #parent2{
+            display: flex;
+            height: auto;
+            width: auto;
+            justify-content: left;
+          flex-direction: column;
+
+        }
+        #parent1>div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+        #parent2>div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div id="parent2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>
+<!-- Here first parent's contents are directioned as row and shows in row order on first 
+ then second parent's contents are directioned in column and so the contents are on column order -->
